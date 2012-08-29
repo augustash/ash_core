@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+/**
+ * Ash Common Extension
+ *
+ * Maintains common settings and configuration for AAI built Magento websites.
+ *
+ * @category    Ash
+ * @package     Ash_Core
+ * @copyright   Copyright (c) 2012 August Ash, Inc. (http://www.augustash.com)
+ */
+-->
+<config>
+    <modules>
+        <Ash_Core>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Ash_Core>
+    </modules>
+</config>
