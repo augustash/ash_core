@@ -24,6 +24,11 @@
                 <class>Ash_Core_Helper</class>
             </ash>
         </helpers>
+        <blocks>
+            <ash>
+                <class>Ash_Core_Block</class>
+            </ash>
+        </blocks>
     </global>
 
     <adminhtml>
