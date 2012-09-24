@@ -13,7 +13,8 @@ Installation
 ------------
 
 1. Clone module with [modman](https://github.com/colinmollenhour/modman)
-2. Delete all contents of the Magento cache
+2. Edit `app/etc/local.xml` changing `global/cache/backend` to `Cm_Cache_Backend_File`
+3. Delete all contents of the Magento cache
 
 ```
 @copyright  Copyright (c) 2012 August Ash, Inc. (http://www.augustash.com)

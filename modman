@@ -1,4 +1,6 @@
 # Ash_Core Mappings
+
 Ash_Core.xml          app/etc/modules/Ash_Core.xml
 code                  app/code/local/Ash/Core/
 locale/*              app/etc/locale/en_US/
+@import               vendors/Cm_Cache_Backend_File
