@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
 /**
- * Ash Common Extension
+ * Ash Core Extension
  *
  * Maintains common settings and configuration for AAI-built Magento websites.
  *
@@ -14,7 +14,7 @@
 <config>
     <modules>
         <Ash_Core>
-             <version>1.1.1</version>
+             <version>1.1.2</version>
         </Ash_Core>
     </modules>
 
@@ -37,6 +37,7 @@
     </global>
 
     <adminhtml>
+        <!--
         <layout>
             <updates>
                 <ash>
@@ -44,6 +45,7 @@
                 </ash>
             </updates>
         </layout>
+        -->
         <translate>
             <modules>
                 <Ash_Core>

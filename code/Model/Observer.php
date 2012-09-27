@@ -1,6 +1,6 @@
 <?php
 /**
- * Ash Common Extension
+ * Ash Core Extension
  *
  * Maintains common settings and configuration for AAI-built Magento websites.
  *
