@@ -14,7 +14,7 @@
 <config>
     <modules>
         <Ash_Core>
-             <version>1.0.0</version>
+             <version>1.1.0</version>
         </Ash_Core>
     </modules>
 
@@ -29,6 +29,11 @@
                 <class>Ash_Core_Block</class>
             </ash>
         </blocks>
+        <models>
+            <ash>
+                <class>Ash_Core_Model</class>
+            </ash>
+        </models>
     </global>
 
     <adminhtml>
@@ -42,4 +47,47 @@
             </modules>
         </translate>
     </adminhtml>
+
+    <frontend>
+        <events>
+            <controller_action_layout_generate_blocks_after>
+                <observers>
+                    <ash_maintenance_reminder>
+                        <class>ash/observer</class>
+                        <method>afterGenerateBlocks</method>
+                    </ash_maintenance_reminder>
+                </observers>
+            </controller_action_layout_generate_blocks_after>
+        </events>
+    </frontend>
+
+    <stores>
+        <default>
+            <web>
+                <routers>
+                    <standard>
+                        <area>frontend</area>
+                        <class>Ash_Core_Controller_Router_Standard</class>
+                    </standard>
+                </routers>
+            </web>
+        </default>
+    </stores>
+
+    <default>
+        <web>
+            <routers>
+                <standard>
+                    <area>frontend</area>
+                    <class>Ash_Core_Controller_Router_Standard</class>
+                </standard>
+            </routers>
+        </web>
+        <ash_offline>
+            <general>
+                <enabled>0</enabled>
+                <message><![CDATA[<h1>We're busy updating the store for you and will be back shortly.</h1>]]></message>
+            </general>
+        </ash_offline>
+    </default>
 </config>

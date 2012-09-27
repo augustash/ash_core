@@ -23,6 +23,9 @@
                                     <ash_support translate="title" module="ash">
                                         <title>Support Info</title>
                                     </ash_support>
+                                    <ash_offline translate="title" module="ash">
+                                        <title>Maintenance Mode</title>
+                                    </ash_offline>
                                 </children>
                             </config>
                         </children>
