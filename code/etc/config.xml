@@ -14,7 +14,7 @@
 <config>
     <modules>
         <Ash_Core>
-             <version>1.1.0</version>
+             <version>1.1.1</version>
         </Ash_Core>
     </modules>
 
@@ -37,6 +37,13 @@
     </global>
 
     <adminhtml>
+        <layout>
+            <updates>
+                <ash>
+                    <file>ash.xml</file>
+                </ash>
+            </updates>
+        </layout>
         <translate>
             <modules>
                 <Ash_Core>
@@ -62,6 +69,13 @@
     </frontend>
 
     <stores>
+        <admin>
+            <design>
+                <theme>
+                    <default>ash</default>
+                </theme>
+            </design>
+        </admin>
         <default>
             <web>
                 <routers>
