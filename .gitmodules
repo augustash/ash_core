@@ -1,0 +1,3 @@
+[submodule "vendors/Cm_Cache_Backend_File"]                                                                                                         
+    path = vendors/Cm_Cache_Backend_File
+    url = git://github.com/colinmollenhour/Cm_Cache_Backend_File.git
