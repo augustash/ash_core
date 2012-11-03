@@ -20,7 +20,7 @@
     </tabs>
     <sections>
         <ash_support translate="label" module="ash">
-            <label>Support Info</label>
+            <label>AAI Support Info</label>
             <tab>ash</tab>
             <frontend_type>text</frontend_type>
             <sort_order>10</sort_order>

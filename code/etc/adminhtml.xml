@@ -21,7 +21,7 @@
                             <config>
                                 <children>
                                     <ash_support translate="title" module="ash">
-                                        <title>Support Info</title>
+                                        <title>AAI Support Info</title>
                                     </ash_support>
                                     <ash_offline translate="title" module="ash">
                                         <title>Maintenance Mode</title>
@@ -41,7 +41,7 @@
             <sort_order>500</sort_order>
             <children>
                 <ash_info translate="title" module="ash">
-                    <title>Support Info</title>
+                    <title>AAI Support Info</title>
                     <sort_order>0</sort_order>
                     <action>adminhtml/system_config/edit/section/ash_support</action>
                 </ash_info>
