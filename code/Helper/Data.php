@@ -19,22 +19,4 @@
  */
 class Ash_Core_Helper_Data extends Mage_Core_Helper_Abstract
 {
-    const MAINTENANCE_MODE     = 'ash_offline/general/enabled';
-    const MAINTENANCE_REMINDER = 'ash_offline/general/reminder';
-    const MAINTENANCE_MESSAGE  = 'ash_offline/general/message';
-
-    /**
-     * Determines if appropriate to display maintenance mode reminder.
-     *
-     * @return  boolean
-     */
-    static public function canDisplayReminder()
-    {
-        if (Mage::getStoreConfigFlag(self::MAINTENANCE_MODE)
-            && Mage::getStoreConfigFlag(self::MAINTENANCE_REMINDER)) {
-            return true;
-        }
-
-        return false;
-    }
 }

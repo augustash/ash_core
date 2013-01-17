@@ -2,6 +2,5 @@
 
 Ash_Core.xml          app/etc/modules/Ash_Core.xml
 code                  app/code/local/Ash/Core/
-frontend/template     app/design/frontend/base/default/template/ash
-locale/*              app/etc/locale/en_US/
+locale/*              app/locale/en_US/
 @import               vendors/Cm_Cache_Backend_File

@@ -7,8 +7,7 @@ Date:   August 31, 2012
 
 This extension adds core functionality that supports August Ash's common
 development efforts. The main feature is the addition of quick access to August
-Ash support channels within the administration area and a more robust
-maintenance mode.
+Ash support channels within the administration area.
 
 Installation
 ------------
