@@ -32,6 +32,7 @@ class Ash_Core_Block_System_Config_Info extends Mage_Adminhtml_Block_Abstract
                     <h4>August Ash Support</h4>
                     <p>Contact our Client Services team at (952) 851-9400 or toll-free at (877) 734-4485.</p>
                     <p>Visit our website: <a href="http://www.augustash.com" target="_blank">www.augustash.com</a></p>
+                    <p><a href="https://augustash.zendesk.com/anonymous_requests/new" target="_blank">Submit a support request</a></p>
                 </div>';
 
         return $html;
