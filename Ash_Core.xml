@@ -16,6 +16,9 @@
         <Ash_Core>
             <active>true</active>
             <codePool>local</codePool>
+            <depends>
+                <Mage_Adminhtml/>
+            </depends>
         </Ash_Core>
     </modules>
 </config>
