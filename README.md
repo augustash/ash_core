@@ -1,4 +1,4 @@
-Title:  Ash_Core Extension
+Title:  Ash_Core Extension  
 Author: Peter McWilliams  
 Email:  core@augustash.com  
 Date:   August 31, 2012  
