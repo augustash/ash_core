@@ -1,8 +1,3 @@
-Title:  Ash_Core Extension  
-Author: Peter McWilliams  
-Email:  core@augustash.com  
-Date:   August 31, 2012  
-
 # Description
 
 This extension adds core functionality that supports August Ash's common
@@ -17,5 +12,5 @@ Installation
 3. Delete all contents of the Magento cache
 
 ```
-@copyright  Copyright (c) 2012 August Ash, Inc. (http://www.augustash.com)
+@copyright  Copyright (c) 2015 August Ash, Inc. (http://www.augustash.com)
 ```
