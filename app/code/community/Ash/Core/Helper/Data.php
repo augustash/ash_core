@@ -6,8 +6,8 @@
  *
  * @category    Ash
  * @package     Ash_Core
- * @copyright   Copyright (c) 2012 August Ash, Inc. (http://www.augustash.com)
- * @license     http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
+ * @copyright   Copyright (c) 2015 August Ash, Inc. (http://www.augustash.com)
+ * @license     LICENSE.txt (MIT)
  */
 
 /**
