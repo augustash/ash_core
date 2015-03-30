@@ -1,6 +1,4 @@
-# Ash_Core Mappings
-
-Ash_Core.xml          app/etc/modules/Ash_Core.xml
-code                  app/code/community/Ash/Core/
-locale/*              app/locale/en_US/
-shell/*               shell/
+app/etc/modules/Ash_Core.xml    app/etc/modules/Ash_Core.xml
+app/code/community/Ash/Core/    app/code/community/Ash/Core/
+app/locale/en_US/*              app/locale/en_US/
+shell/*                         shell/
