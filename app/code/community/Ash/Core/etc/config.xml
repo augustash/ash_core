@@ -8,15 +8,13 @@
  * @category    Ash
  * @package     Ash_Core
  * @copyright   Copyright (c) 2015 August Ash, Inc. (http://www.augustash.com)
- * @license     http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
+ * @license     LICENSE.txt (MIT)
  */
 -->
 <config>
     <modules>
         <Ash_Core>
-             <version>1.5.0</version>
-             <ashup
-                remote="https://s3.amazonaws.com/augustash/mage/ash_core-latest.zip" />
+             <version>1.6.0</version>
         </Ash_Core>
     </modules>
 
@@ -54,5 +52,4 @@
             </modules>
         </translate>
     </adminhtml>
-
 </config>
