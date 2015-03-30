@@ -14,9 +14,7 @@
 <config>
     <modules>
         <Ash_Core>
-             <version>1.5.0</version>
-             <ashup
-                remote="https://s3.amazonaws.com/augustash/mage/ash_core-latest.zip" />
+             <version>1.6.0</version>
         </Ash_Core>
     </modules>
 
@@ -54,5 +52,4 @@
             </modules>
         </translate>
     </adminhtml>
-
 </config>

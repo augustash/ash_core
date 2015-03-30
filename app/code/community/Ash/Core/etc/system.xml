@@ -20,7 +20,7 @@
     </tabs>
     <sections>
         <ash_support translate="label" module="ash">
-            <label>Ash Support</label>
+            <label>Ash Client Support</label>
             <tab>ash</tab>
             <frontend_type>text</frontend_type>
             <sort_order>0</sort_order>
